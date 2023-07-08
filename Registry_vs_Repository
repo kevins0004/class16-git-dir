@@ -1,0 +1,18 @@
+
+Registry
+
+A Docker registry is a storage and distribution system for named Docker images.
+The same image might have multiple different versions, identified by their tags.
+
+A registry can be hosted publicly or privately -- like a repository -- or by a third party.
+
+
+
+
+Repository
+
+
+A repository is a collection of container images or other artifacts in a registry that have the same name,
+but different tags.
+
+
