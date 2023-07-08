@@ -16,3 +16,15 @@ A repository is a collection of container images or other artifacts in a registr
 but different tags.
 
 
+Dockerfile main commands
+ 
+- FROM ** Must be the first command in a Dockerfile, with this command we set the image that will be used as base in our image.
+
+- ADD ** To move a file into a container directory, it can be .tar files.
+
+- CMD ** It defines a command to be executed when a container with this image initializes.
+
+- LABEL ** Use it to set a container's description and keep it easy to manage all containers.
+
+- COPY ** Similar to ADD, but you can copy normal files and directories.
+
